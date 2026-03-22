@@ -121,6 +121,9 @@ footer {
     align-items: center;
     gap: 4px;
     margin-top: 4px;
+    font-weight: 700;
+    color: #555555;
+    font-size: 20px;
 }
 
 .currency {
