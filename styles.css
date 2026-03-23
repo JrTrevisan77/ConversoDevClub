@@ -67,8 +67,11 @@ select {
     border-radius: 4px;
     height: 32px;
     cursor: pointer;
+    
 
-
+}
+.select-money{
+    padding-right: 22px;
 }
 
 button {
@@ -93,14 +96,14 @@ button:active {
     opacity: 0.5;
 }
 
-.bandeira {
+.bandeira, .bandeira-cima {
     width: 80px;
     height: auto;
     display: block;
     margin: 10px auto;
 }
 
-.seta {
+.bandeira-seta {
     width: 65px;
     height: auto;
     margin: 4 auto 20px;
@@ -132,7 +135,7 @@ footer {
 
 }
 
-.currency-value {
+.currency-value, .currency-value-to-convert {
     color: #555555;
     font-weight: 700;
     font-size: 20px;

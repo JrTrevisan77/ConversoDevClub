@@ -21,50 +21,52 @@
 
             <label>
                 Converte <b>De</b>
-                <input type="number" placeholder="0.00" />
+                <input class="input-currency" type="number" placeholder="0.00" />
             </label>
 
-            <select>
+            <select class="select-money">
+
                 <options>
 
                     <option>R$ Real Brasileiro</option>
-                    <option>US$ Dólar Americano</option>
-                    <option>€ Euros</option>
 
                 </options>
+
             </select>
+
 
             <label>
+
                 Converte <b>Para</b>
-                <input type="number" placeholder="0.00" />
+                <input class="input-result" type="number" placeholder="0.00" readonly />
+
             </label>
 
-            <select>
+            <select class="currency-select">
                 <options>
 
-                    <option>R$ Real Brasileiro</option>
-                    <option>US$ Dólar Americano</option>
-                    <option>€ Euros</option>
+                    <option value="dolar">US$ Dólar Americano</option>
+                    <option value="euro">€ Euros</option>
 
                 </options>
-
             </select>
+
 
             <button class="convert-button">converter</button>
 
             <footer>
                 <div class="result-box">
                     <p>Resultado da Conversão</p>
-                    <img class="bandeira" class="brasil" src="./img/Brasil.jfif" alt="Logo-Brasil" />
+                    <img class="bandeira-cima" class="brasil" src="./img/Brasil.jfif" alt="Logo-Brasil" />
                     <p class="currency">Real</p>
-                    <p class="currency-value">R$ 0,00</p>
+                    <p class="currency-value-to-convert">R$ 0,00</p>
                 </div>
 
-                <img class="bandeira seta" src="./img/seta.png" alt="Logo-Seta" />
+                <img class="bandeira-seta" src="./img/seta.png" alt="Logo-Seta" />
 
                 <div class="result-box">
                     <img class="bandeira" class="USA" src="./img/USA.jfif" alt="Logo-USA" />
-                    <p class="currency">Dolar</p>
+                    <p class="currency" id="currency-name">Dolar</p>
                     <p class="currency-value">US$ 0,00</p>
                 </div>
 
