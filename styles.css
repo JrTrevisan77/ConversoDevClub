@@ -70,9 +70,10 @@ select {
     
 
 }
-.select-money{
+
+/*.select-money{
     padding-right: 22px;
-}
+}*/
 
 button {
     margin: 20px auto;
@@ -106,7 +107,7 @@ button:active {
 .bandeira-seta {
     width: 65px;
     height: auto;
-    margin: 4 auto 20px;
+    margin: 30px auto 10px;
 }
 
 footer {
